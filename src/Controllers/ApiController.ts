@@ -97,7 +97,6 @@ export const findAndCreate = async (req: Request, res: Response) =>{
       } 
       
       catch (error) {
-          console.error(error)
           return res.json({error: "cidade nao existe"});
       }
 }
