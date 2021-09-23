@@ -10,9 +10,11 @@ Este projeto foi desenvolvido com [NodeJs](https://nodejs.org/en/).
 
 1. Atualize suas variáveis de ambiente no arquivo `.env`. Envolva os valores que podem conter caracteres não alfanuméricos entre aspas.
 
-- Banco de dados
+- Porta e chave da API
   - `PORT`
   - `API_KEY`
+ 
+- Banco de dados
   - `PG_DB`
   - `PG_USER`
   - `PG_PASS`
